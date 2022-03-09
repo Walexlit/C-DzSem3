@@ -1,32 +1,32 @@
 ﻿// Задача 19: Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-Console.WriteLine("введите пятизначное число");
-int numberA = Convert.ToInt32(Console.ReadLine());
-string str = Convert.ToString(numberA);
-int f = 0;
-if (numberA < 10000 | numberA > 99999)
-{
-    Console.WriteLine("Ошибка, введите пятизначное число");
-}
-else
-{
-    for (int i = 0; i < 2; i++)
-    {
-        if (str.Substring(i, 1) != str.Substring(4 - i, 1))
-        {
-            f = 1;
-            break;
-        }
-    }
-    if (f == 0)
-    {
-        Console.WriteLine("полендром");
-    }
-    else
-    {
-        Console.WriteLine("не полендром");
-    }
-}
+// Console.WriteLine("введите пятизначное число");
+// int numberA = Convert.ToInt32(Console.ReadLine());
+// string str = Convert.ToString(numberA);
+// int f = 0;
+// if (numberA < 10000 | numberA > 99999)
+// {
+//     Console.WriteLine("Ошибка, введите пятизначное число");
+// }
+// else
+// {
+//     for (int i = 0; i < 2; i++)
+//     {
+//         if (str.Substring(i, 1) != str.Substring(4 - i, 1))
+//         {
+//             f = 1;
+//             break;
+//         }
+//     }
+//     if (f == 0)
+//     {
+//         Console.WriteLine("полендром");
+//     }
+//     else
+//     {
+//         Console.WriteLine("не полендром");
+//     }
+// }
 
 
 
@@ -56,9 +56,8 @@ else
 // int numberZ2 = Convert.ToInt32(Console.ReadLine());
 
 
-// double sum = Math.Sqrt((numberX2 - numberX1) * (numberX2 - numberX1) + (numberY2 - numberY1) * (numberY2 - numberY1) + (numberZ2 - numberZ1) * (numberZ2 - numberZ1)); // Math.Sqrt - выводит кв корень из числа
+// double sum = Math.Sqrt((numberX2 - numberX1) * (numberX2 - numberX1) + (numberY2 - numberY1) * (numberY2 - numberY1) + (numberZ2 - numberZ1) * (numberZ2 - numberZ1)); 
 // {
-
 //     Console.WriteLine($"отрезок длинной {sum}");
 // }
 
